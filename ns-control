@@ -1,29 +1,23 @@
 ### Commented entries have reasonable defaults.
 ### Uncomment to edit them.
-# Source: <source package name; defaults to package name>
 Section: misc
 Priority: optional
-# Homepage: <enter URL here; no default>
+Homepage: https://github.com/cmotc/fireaxe-meta-desktop
 Standards-Version: 3.9.2
 
 Package: fireaxe-meta-desktop
 # Version: <enter version here; defaults to 1.0>
-# Maintainer: Your Name <yourname@example.com>
-# Pre-Depends: <comma-separated list of packages>
-Depends: svirfneblin-session, svirfneblin-panel, svirfneblin-network-manager, svirfneblin-netmonitor-widget, svirfneblin-netmap-widget, svirfneblin-goblin, svirfneblin-conky-starter, svirfneblin-conky-hud, svirfneblin-battery-widget
-# Recommends: <comma-separated list of packages>
-# Suggests: <comma-separated list of packages>
-# Provides: <comma-separated list of packages>
-# Replaces: <comma-separated list of packages>
-# Architecture: all
-# Multi-Arch: <one of: foreign|same|allowed>
+Maintainer: idk <cmotc@openmailbox.org>
+Depends: awesome, awesome-extra, svirfneblin-session, svirfneblin-panel, svirfneblin-network-manager, svirfneblin-netmonitor-widget, svirfneblin-netmap-widget, svirfneblin-goblin, svirfneblin-conky-starter, svirfneblin-conky-hud, svirfneblin-battery-widget, pcmanfm, terminator, irssi, mumble, mutt, profanity, twidge, nano, lynx-cur, ncftp, uzbl, lightdm, xscreensaver, whiptail
+Recommends: xombrero
+Architecture: all
 # Copyright: <copyright file; defaults to GPL2>
 # Changelog: <changelog file; defaults to a generic changelog>
 # Readme: <README.Debian file; defaults to a generic one>
 # Extra-Files: <comma-separated list of additional files for the doc directory>
 # Files: <pair of space-separated paths; First is file to include, second is destination>
 #  <more pairs, if there's more than one file to include. Notice the starting space>
-Description: <short description; defaults to some wise words> 
- long description and info
- .
- second paragraph
+Description: fireaxe svirfneblin awesomeWM session
+ This metapackage installs the awesomeWM configuration and default desktop applications
+ for my custom distro, which is heavily oriented toward tiling and terminals by default.
+ 
